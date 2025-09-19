@@ -296,7 +296,7 @@
             <div class="preview-section">
                 <h3>Preview</h3>
                 <div class="preview-container">
-                    <canvas id="previewCanvas" width="400" height="300"></canvas>
+                    <canvas id="previewCanvas" width="1200" height="800"></canvas>
                 </div>
             </div>
         </div>
@@ -379,8 +379,8 @@
             const compound2 = baseWord;
 
             // Set canvas size
-            canvas.width = 600;
-            canvas.height = 400;
+            canvas.width = 1200;
+            canvas.height = 800;
 
             // Clear canvas
             ctx.fillStyle = selectedBackgroundColor;
@@ -399,7 +399,7 @@
 
             // Calculate positions - all text at same vertical center
             const centerX = canvas.width / 2;
-            const centerY = (canvas.height / 2) + 20;
+            const centerY = (canvas.height / 2) + 55;
 
             // Get margin values from sliders and scale proportionally with text size
             const scaleFactor = baseSize / 100; // Use base size as scaling reference
